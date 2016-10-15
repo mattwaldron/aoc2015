@@ -5,13 +5,13 @@ ups = 0
 downs = 0
 
 while (1):
-	c = infile.read(1)
-	if not c:
-		break
-	elif c == "(":
-		ups = ups + 1
-	elif c == ")":
-		downs = downs + 1
+    c = infile.read(1)
+    if not c:
+        break
+    elif c == "(":
+        ups = ups + 1
+    elif c == ")":
+        downs = downs + 1
 
 floor = ups - downs
 
